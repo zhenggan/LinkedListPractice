@@ -3,7 +3,17 @@
 
 int main()
 {
-	//Testing getValue
+    //Testing
     LinkedList list(5);
-	std::cout<< list.getValue(0) << std::endl;
+    list.printList();
+    list.append(9);
+    list.printList();
+    list.append(6);
+    list.printList();
+    list.addAtPosition(7, 1);
+    list.printList();
+    list.remove(7);
+    list.printList();
+    
+    return 0;
 }
